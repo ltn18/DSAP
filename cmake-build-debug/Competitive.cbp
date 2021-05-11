@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/admin/Desktop/CS/Competitive/generation.cpp">
+		<Unit filename="C:/Users/admin/Desktop/CS/Competitive/binary_string_generation.cpp">
 			<Option target="Competitive"/>
 		</Unit>
 		<Unit filename="C:/Users/admin/Desktop/CS/Competitive/CMakeLists.txt">

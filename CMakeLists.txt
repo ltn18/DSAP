@@ -3,4 +3,4 @@ project(Competitive)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Competitive hello.cpp)
+add_executable(Competitive binary_string_generation.cpp)

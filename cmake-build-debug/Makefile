@@ -141,32 +141,32 @@ Competitive/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitive.dir\build.make CMakeFiles/Competitive.dir/build
 .PHONY : Competitive/fast
 
-generation.obj: generation.cpp.obj
+binary_string_generation.obj: binary_string_generation.cpp.obj
 
-.PHONY : generation.obj
+.PHONY : binary_string_generation.obj
 
 # target to build an object file
-generation.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitive.dir\build.make CMakeFiles/Competitive.dir/generation.cpp.obj
-.PHONY : generation.cpp.obj
+binary_string_generation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitive.dir\build.make CMakeFiles/Competitive.dir/binary_string_generation.cpp.obj
+.PHONY : binary_string_generation.cpp.obj
 
-generation.i: generation.cpp.i
+binary_string_generation.i: binary_string_generation.cpp.i
 
-.PHONY : generation.i
+.PHONY : binary_string_generation.i
 
 # target to preprocess a source file
-generation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitive.dir\build.make CMakeFiles/Competitive.dir/generation.cpp.i
-.PHONY : generation.cpp.i
+binary_string_generation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitive.dir\build.make CMakeFiles/Competitive.dir/binary_string_generation.cpp.i
+.PHONY : binary_string_generation.cpp.i
 
-generation.s: generation.cpp.s
+binary_string_generation.s: binary_string_generation.cpp.s
 
-.PHONY : generation.s
+.PHONY : binary_string_generation.s
 
 # target to generate assembly for a file
-generation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitive.dir\build.make CMakeFiles/Competitive.dir/generation.cpp.s
-.PHONY : generation.cpp.s
+binary_string_generation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitive.dir\build.make CMakeFiles/Competitive.dir/binary_string_generation.cpp.s
+.PHONY : binary_string_generation.cpp.s
 
 # Help Target
 help:
@@ -177,9 +177,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Competitive
-	@echo ... generation.obj
-	@echo ... generation.i
-	@echo ... generation.s
+	@echo ... binary_string_generation.obj
+	@echo ... binary_string_generation.i
+	@echo ... binary_string_generation.s
 .PHONY : help
 
 

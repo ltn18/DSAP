@@ -75,27 +75,27 @@ include CMakeFiles/Competitive.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Competitive.dir/flags.make
 
-CMakeFiles/Competitive.dir/generation.cpp.obj: CMakeFiles/Competitive.dir/flags.make
-CMakeFiles/Competitive.dir/generation.cpp.obj: ../generation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\admin\Desktop\CS\Competitive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Competitive.dir/generation.cpp.obj"
-	C:\PROGRA~2\MinGW\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Competitive.dir\generation.cpp.obj -c C:\Users\admin\Desktop\CS\Competitive\generation.cpp
+CMakeFiles/Competitive.dir/binary_string_generation.cpp.obj: CMakeFiles/Competitive.dir/flags.make
+CMakeFiles/Competitive.dir/binary_string_generation.cpp.obj: ../binary_string_generation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\admin\Desktop\CS\Competitive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Competitive.dir/binary_string_generation.cpp.obj"
+	C:\PROGRA~2\MinGW\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Competitive.dir\binary_string_generation.cpp.obj -c C:\Users\admin\Desktop\CS\Competitive\binary_string_generation.cpp
 
-CMakeFiles/Competitive.dir/generation.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Competitive.dir/generation.cpp.i"
-	C:\PROGRA~2\MinGW\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\admin\Desktop\CS\Competitive\generation.cpp > CMakeFiles\Competitive.dir\generation.cpp.i
+CMakeFiles/Competitive.dir/binary_string_generation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Competitive.dir/binary_string_generation.cpp.i"
+	C:\PROGRA~2\MinGW\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\admin\Desktop\CS\Competitive\binary_string_generation.cpp > CMakeFiles\Competitive.dir\binary_string_generation.cpp.i
 
-CMakeFiles/Competitive.dir/generation.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Competitive.dir/generation.cpp.s"
-	C:\PROGRA~2\MinGW\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\admin\Desktop\CS\Competitive\generation.cpp -o CMakeFiles\Competitive.dir\generation.cpp.s
+CMakeFiles/Competitive.dir/binary_string_generation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Competitive.dir/binary_string_generation.cpp.s"
+	C:\PROGRA~2\MinGW\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\admin\Desktop\CS\Competitive\binary_string_generation.cpp -o CMakeFiles\Competitive.dir\binary_string_generation.cpp.s
 
 # Object files for target Competitive
 Competitive_OBJECTS = \
-"CMakeFiles/Competitive.dir/generation.cpp.obj"
+"CMakeFiles/Competitive.dir/binary_string_generation.cpp.obj"
 
 # External object files for target Competitive
 Competitive_EXTERNAL_OBJECTS =
 
-Competitive.exe: CMakeFiles/Competitive.dir/generation.cpp.obj
+Competitive.exe: CMakeFiles/Competitive.dir/binary_string_generation.cpp.obj
 Competitive.exe: CMakeFiles/Competitive.dir/build.make
 Competitive.exe: CMakeFiles/Competitive.dir/linklibs.rsp
 Competitive.exe: CMakeFiles/Competitive.dir/objects1.rsp
