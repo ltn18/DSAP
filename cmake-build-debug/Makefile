@@ -128,6 +128,46 @@ depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
+#=============================================================================
+# Target rules for targets named Competitve
+
+# Build rule for target.
+Competitve: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Competitve
+.PHONY : Competitve
+
+# fast build rule for target.
+Competitve/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitve.dir\build.make CMakeFiles/Competitve.dir/build
+.PHONY : Competitve/fast
+
+arrange.obj: arrange.cpp.obj
+
+.PHONY : arrange.obj
+
+# target to build an object file
+arrange.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitve.dir\build.make CMakeFiles/Competitve.dir/arrange.cpp.obj
+.PHONY : arrange.cpp.obj
+
+arrange.i: arrange.cpp.i
+
+.PHONY : arrange.i
+
+# target to preprocess a source file
+arrange.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitve.dir\build.make CMakeFiles/Competitve.dir/arrange.cpp.i
+.PHONY : arrange.cpp.i
+
+arrange.s: arrange.cpp.s
+
+.PHONY : arrange.s
+
+# target to generate assembly for a file
+arrange.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitve.dir\build.make CMakeFiles/Competitve.dir/arrange.cpp.s
+.PHONY : arrange.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -136,6 +176,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Competitve
+	@echo ... arrange.obj
+	@echo ... arrange.i
+	@echo ... arrange.s
 .PHONY : help
 
 

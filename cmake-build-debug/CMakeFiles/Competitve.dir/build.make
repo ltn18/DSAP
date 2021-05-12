@@ -75,27 +75,27 @@ include CMakeFiles/Competitve.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Competitve.dir/flags.make
 
-CMakeFiles/Competitve.dir/subset_backtrack.cpp.obj: CMakeFiles/Competitve.dir/flags.make
-CMakeFiles/Competitve.dir/subset_backtrack.cpp.obj: ../subset_backtrack.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\admin\Desktop\CS\Competitive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Competitve.dir/subset_backtrack.cpp.obj"
-	C:\PROGRA~2\MinGW\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Competitve.dir\subset_backtrack.cpp.obj -c C:\Users\admin\Desktop\CS\Competitive\subset_backtrack.cpp
+CMakeFiles/Competitve.dir/arrange.cpp.obj: CMakeFiles/Competitve.dir/flags.make
+CMakeFiles/Competitve.dir/arrange.cpp.obj: ../arrange.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\admin\Desktop\CS\Competitive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Competitve.dir/arrange.cpp.obj"
+	C:\PROGRA~2\MinGW\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Competitve.dir\arrange.cpp.obj -c C:\Users\admin\Desktop\CS\Competitive\arrange.cpp
 
-CMakeFiles/Competitve.dir/subset_backtrack.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Competitve.dir/subset_backtrack.cpp.i"
-	C:\PROGRA~2\MinGW\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\admin\Desktop\CS\Competitive\subset_backtrack.cpp > CMakeFiles\Competitve.dir\subset_backtrack.cpp.i
+CMakeFiles/Competitve.dir/arrange.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Competitve.dir/arrange.cpp.i"
+	C:\PROGRA~2\MinGW\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\admin\Desktop\CS\Competitive\arrange.cpp > CMakeFiles\Competitve.dir\arrange.cpp.i
 
-CMakeFiles/Competitve.dir/subset_backtrack.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Competitve.dir/subset_backtrack.cpp.s"
-	C:\PROGRA~2\MinGW\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\admin\Desktop\CS\Competitive\subset_backtrack.cpp -o CMakeFiles\Competitve.dir\subset_backtrack.cpp.s
+CMakeFiles/Competitve.dir/arrange.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Competitve.dir/arrange.cpp.s"
+	C:\PROGRA~2\MinGW\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\admin\Desktop\CS\Competitive\arrange.cpp -o CMakeFiles\Competitve.dir\arrange.cpp.s
 
 # Object files for target Competitve
 Competitve_OBJECTS = \
-"CMakeFiles/Competitve.dir/subset_backtrack.cpp.obj"
+"CMakeFiles/Competitve.dir/arrange.cpp.obj"
 
 # External object files for target Competitve
 Competitve_EXTERNAL_OBJECTS =
 
-Competitve.exe: CMakeFiles/Competitve.dir/subset_backtrack.cpp.obj
+Competitve.exe: CMakeFiles/Competitve.dir/arrange.cpp.obj
 Competitve.exe: CMakeFiles/Competitve.dir/build.make
 Competitve.exe: CMakeFiles/Competitve.dir/linklibs.rsp
 Competitve.exe: CMakeFiles/Competitve.dir/objects1.rsp

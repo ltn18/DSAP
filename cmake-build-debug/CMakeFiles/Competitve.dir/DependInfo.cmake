@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/admin/Desktop/CS/Competitive/subset_backtrack.cpp" "C:/Users/admin/Desktop/CS/Competitive/cmake-build-debug/CMakeFiles/Competitve.dir/subset_backtrack.cpp.obj"
+  "C:/Users/admin/Desktop/CS/Competitive/arrange.cpp" "C:/Users/admin/Desktop/CS/Competitive/cmake-build-debug/CMakeFiles/Competitve.dir/arrange.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
