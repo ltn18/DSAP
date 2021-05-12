@@ -168,6 +168,33 @@ binary_string_generation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitive.dir\build.make CMakeFiles/Competitive.dir/binary_string_generation.cpp.s
 .PHONY : binary_string_generation.cpp.s
 
+subset_k_generation.obj: subset_k_generation.cpp.obj
+
+.PHONY : subset_k_generation.obj
+
+# target to build an object file
+subset_k_generation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitive.dir\build.make CMakeFiles/Competitive.dir/subset_k_generation.cpp.obj
+.PHONY : subset_k_generation.cpp.obj
+
+subset_k_generation.i: subset_k_generation.cpp.i
+
+.PHONY : subset_k_generation.i
+
+# target to preprocess a source file
+subset_k_generation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitive.dir\build.make CMakeFiles/Competitive.dir/subset_k_generation.cpp.i
+.PHONY : subset_k_generation.cpp.i
+
+subset_k_generation.s: subset_k_generation.cpp.s
+
+.PHONY : subset_k_generation.s
+
+# target to generate assembly for a file
+subset_k_generation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitive.dir\build.make CMakeFiles/Competitive.dir/subset_k_generation.cpp.s
+.PHONY : subset_k_generation.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -180,6 +207,9 @@ help:
 	@echo ... binary_string_generation.obj
 	@echo ... binary_string_generation.i
 	@echo ... binary_string_generation.s
+	@echo ... subset_k_generation.obj
+	@echo ... subset_k_generation.i
+	@echo ... subset_k_generation.s
 .PHONY : help
 
 

@@ -83,6 +83,9 @@
 		<Unit filename="C:/Users/admin/Desktop/CS/Competitive/binary_string_generation.cpp">
 			<Option target="Competitive"/>
 		</Unit>
+		<Unit filename="C:/Users/admin/Desktop/CS/Competitive/subset_k_generation.cpp">
+			<Option target="Competitive"/>
+		</Unit>
 		<Unit filename="C:/Users/admin/Desktop/CS/Competitive/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
