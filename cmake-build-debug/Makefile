@@ -141,32 +141,32 @@ Competitive/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitive.dir\build.make CMakeFiles/Competitive.dir/build
 .PHONY : Competitive/fast
 
-chap_2_ex.obj: chap_2_ex.cpp.obj
+bstr_backtrack.obj: bstr_backtrack.cpp.obj
 
-.PHONY : chap_2_ex.obj
+.PHONY : bstr_backtrack.obj
 
 # target to build an object file
-chap_2_ex.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitive.dir\build.make CMakeFiles/Competitive.dir/chap_2_ex.cpp.obj
-.PHONY : chap_2_ex.cpp.obj
+bstr_backtrack.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitive.dir\build.make CMakeFiles/Competitive.dir/bstr_backtrack.cpp.obj
+.PHONY : bstr_backtrack.cpp.obj
 
-chap_2_ex.i: chap_2_ex.cpp.i
+bstr_backtrack.i: bstr_backtrack.cpp.i
 
-.PHONY : chap_2_ex.i
+.PHONY : bstr_backtrack.i
 
 # target to preprocess a source file
-chap_2_ex.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitive.dir\build.make CMakeFiles/Competitive.dir/chap_2_ex.cpp.i
-.PHONY : chap_2_ex.cpp.i
+bstr_backtrack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitive.dir\build.make CMakeFiles/Competitive.dir/bstr_backtrack.cpp.i
+.PHONY : bstr_backtrack.cpp.i
 
-chap_2_ex.s: chap_2_ex.cpp.s
+bstr_backtrack.s: bstr_backtrack.cpp.s
 
-.PHONY : chap_2_ex.s
+.PHONY : bstr_backtrack.s
 
 # target to generate assembly for a file
-chap_2_ex.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitive.dir\build.make CMakeFiles/Competitive.dir/chap_2_ex.cpp.s
-.PHONY : chap_2_ex.cpp.s
+bstr_backtrack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitive.dir\build.make CMakeFiles/Competitive.dir/bstr_backtrack.cpp.s
+.PHONY : bstr_backtrack.cpp.s
 
 # Help Target
 help:
@@ -177,9 +177,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Competitive
-	@echo ... chap_2_ex.obj
-	@echo ... chap_2_ex.i
-	@echo ... chap_2_ex.s
+	@echo ... bstr_backtrack.obj
+	@echo ... bstr_backtrack.i
+	@echo ... bstr_backtrack.s
 .PHONY : help
 
 
