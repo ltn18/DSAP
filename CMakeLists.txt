@@ -3,4 +3,6 @@ project(Competitive)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Competitive binary_string_generation.cpp subset_k_generation.cpp)
+#add_executable(Competitive bstr.cpp)
+#add_executable(Competitive subset.cpp)
+#add_executable(Competitive permute.cpp)

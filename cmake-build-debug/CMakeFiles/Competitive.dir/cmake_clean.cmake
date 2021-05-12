@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Competitive.dir/binary_string_generation.cpp.obj"
-  "CMakeFiles/Competitive.dir/subset_k_generation.cpp.obj"
+  "CMakeFiles/Competitive.dir/permute.cpp.obj"
   "Competitive.exe"
   "Competitive.exe.manifest"
   "Competitive.pdb"
