@@ -1,3 +1,1 @@
-# Notebook for Competitive Programming
-## Chapter 2: Generation
-    1. Lexicographic Order
+# Notebook for Data Structure and Algorithms
