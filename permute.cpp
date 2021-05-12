@@ -1,6 +1,8 @@
 /**
  * @author: Lam Nguyen
  *
+ * Chapter 2: Generation
+ *
  * @description:
  * This program will list all permutation of {1,2,...,n}
  * in lexicographical order.
@@ -46,6 +48,8 @@ void swap(int x[], int i, int j) {
 }
 
 void gen(int n) {
+    if (n == 0) return;
+
     int x[n];
     for (int i = 0; i < n; i++) x[i] = i+1;
     print(x, n);

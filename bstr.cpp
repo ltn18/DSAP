@@ -1,6 +1,8 @@
 /**
  * @author: Lam Nguyen
  *
+ * Chapter 2: Generation
+ *
  * Binary string of length n is a binary representation of
  * p(x) in [0, 2^n-1]. The number of binary strings = 2^n.
  *
@@ -29,6 +31,8 @@
 using namespace std;
 
 void gen(int n, string s) {
+    if (n == 0) return;
+
     cout << s << '\n';
 
     for (int i = 0; i < n; i++) {

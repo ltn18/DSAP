@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Competitive.dir/permute.cpp.obj"
+  "CMakeFiles/Competitive.dir/chap_2_ex.cpp.obj"
   "Competitive.exe"
   "Competitive.exe.manifest"
   "Competitive.pdb"

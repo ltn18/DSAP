@@ -1,6 +1,8 @@
 /**
  * @author: Lam Nguyen
  *
+ * Chapter 2: Generation
+ *
  * @description:
  * This program will list all subsets of k elements
  * of {1,2,...,n}.
@@ -37,6 +39,8 @@ bool end(int s[], int n, int k) {
 }
 
 void gen(int n, int k) {
+    if (n == 0 || k == 0) return;
+
     int s[k];
     for (int i = 0; i < k; i++) s[i] = i+1;
     print(s, k);

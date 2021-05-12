@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/admin/Desktop/CS/Competitive/permute.cpp" "C:/Users/admin/Desktop/CS/Competitive/cmake-build-debug/CMakeFiles/Competitive.dir/permute.cpp.obj"
+  "C:/Users/admin/Desktop/CS/Competitive/chap_2_ex.cpp" "C:/Users/admin/Desktop/CS/Competitive/cmake-build-debug/CMakeFiles/Competitive.dir/chap_2_ex.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

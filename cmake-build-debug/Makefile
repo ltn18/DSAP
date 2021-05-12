@@ -141,32 +141,32 @@ Competitive/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitive.dir\build.make CMakeFiles/Competitive.dir/build
 .PHONY : Competitive/fast
 
-permute.obj: permute.cpp.obj
+chap_2_ex.obj: chap_2_ex.cpp.obj
 
-.PHONY : permute.obj
+.PHONY : chap_2_ex.obj
 
 # target to build an object file
-permute.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitive.dir\build.make CMakeFiles/Competitive.dir/permute.cpp.obj
-.PHONY : permute.cpp.obj
+chap_2_ex.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitive.dir\build.make CMakeFiles/Competitive.dir/chap_2_ex.cpp.obj
+.PHONY : chap_2_ex.cpp.obj
 
-permute.i: permute.cpp.i
+chap_2_ex.i: chap_2_ex.cpp.i
 
-.PHONY : permute.i
+.PHONY : chap_2_ex.i
 
 # target to preprocess a source file
-permute.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitive.dir\build.make CMakeFiles/Competitive.dir/permute.cpp.i
-.PHONY : permute.cpp.i
+chap_2_ex.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitive.dir\build.make CMakeFiles/Competitive.dir/chap_2_ex.cpp.i
+.PHONY : chap_2_ex.cpp.i
 
-permute.s: permute.cpp.s
+chap_2_ex.s: chap_2_ex.cpp.s
 
-.PHONY : permute.s
+.PHONY : chap_2_ex.s
 
 # target to generate assembly for a file
-permute.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitive.dir\build.make CMakeFiles/Competitive.dir/permute.cpp.s
-.PHONY : permute.cpp.s
+chap_2_ex.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitive.dir\build.make CMakeFiles/Competitive.dir/chap_2_ex.cpp.s
+.PHONY : chap_2_ex.cpp.s
 
 # Help Target
 help:
@@ -177,9 +177,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Competitive
-	@echo ... permute.obj
-	@echo ... permute.i
-	@echo ... permute.s
+	@echo ... chap_2_ex.obj
+	@echo ... chap_2_ex.i
+	@echo ... chap_2_ex.s
 .PHONY : help
 
 
