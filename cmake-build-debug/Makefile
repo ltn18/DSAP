@@ -128,46 +128,6 @@ depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named Competitive
-
-# Build rule for target.
-Competitive: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Competitive
-.PHONY : Competitive
-
-# fast build rule for target.
-Competitive/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitive.dir\build.make CMakeFiles/Competitive.dir/build
-.PHONY : Competitive/fast
-
-bstr_backtrack.obj: bstr_backtrack.cpp.obj
-
-.PHONY : bstr_backtrack.obj
-
-# target to build an object file
-bstr_backtrack.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitive.dir\build.make CMakeFiles/Competitive.dir/bstr_backtrack.cpp.obj
-.PHONY : bstr_backtrack.cpp.obj
-
-bstr_backtrack.i: bstr_backtrack.cpp.i
-
-.PHONY : bstr_backtrack.i
-
-# target to preprocess a source file
-bstr_backtrack.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitive.dir\build.make CMakeFiles/Competitive.dir/bstr_backtrack.cpp.i
-.PHONY : bstr_backtrack.cpp.i
-
-bstr_backtrack.s: bstr_backtrack.cpp.s
-
-.PHONY : bstr_backtrack.s
-
-# target to generate assembly for a file
-bstr_backtrack.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitive.dir\build.make CMakeFiles/Competitive.dir/bstr_backtrack.cpp.s
-.PHONY : bstr_backtrack.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -176,10 +136,6 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Competitive
-	@echo ... bstr_backtrack.obj
-	@echo ... bstr_backtrack.i
-	@echo ... bstr_backtrack.s
 .PHONY : help
 
 

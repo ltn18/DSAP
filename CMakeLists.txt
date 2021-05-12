@@ -10,5 +10,5 @@ set(CMAKE_CXX_STANDARD 14)
 #add_executable(Competitive chap_2_ex.cpp)
 
 # chapter 3: back tracking
-add_executable(Competitive bstr_backtrack.cpp)
-
+#add_executable(Competitive bstr_backtrack.cpp)
+#add_executable(Competitve subset_backtrack.cpp)
