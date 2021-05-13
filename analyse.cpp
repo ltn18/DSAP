@@ -32,6 +32,8 @@ void attempt(int x[], int n, int i) {
         t[i] = t[i-1] + j;
         attempt(x, n, i+1);
     }
+    // this will run if there are no more backtracking procedures
+    // since x[i+1] >= x[i], we then return our last element
     x[i] = n - t[i-1]; // x[i] is last element then it has to be n - t[i-1]
     print(x, n, i);
 }
