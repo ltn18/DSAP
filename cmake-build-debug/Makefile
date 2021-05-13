@@ -141,32 +141,32 @@ Competitve/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitve.dir\build.make CMakeFiles/Competitve.dir/build
 .PHONY : Competitve/fast
 
-arrange.obj: arrange.cpp.obj
+analyse.obj: analyse.cpp.obj
 
-.PHONY : arrange.obj
+.PHONY : analyse.obj
 
 # target to build an object file
-arrange.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitve.dir\build.make CMakeFiles/Competitve.dir/arrange.cpp.obj
-.PHONY : arrange.cpp.obj
+analyse.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitve.dir\build.make CMakeFiles/Competitve.dir/analyse.cpp.obj
+.PHONY : analyse.cpp.obj
 
-arrange.i: arrange.cpp.i
+analyse.i: analyse.cpp.i
 
-.PHONY : arrange.i
+.PHONY : analyse.i
 
 # target to preprocess a source file
-arrange.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitve.dir\build.make CMakeFiles/Competitve.dir/arrange.cpp.i
-.PHONY : arrange.cpp.i
+analyse.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitve.dir\build.make CMakeFiles/Competitve.dir/analyse.cpp.i
+.PHONY : analyse.cpp.i
 
-arrange.s: arrange.cpp.s
+analyse.s: analyse.cpp.s
 
-.PHONY : arrange.s
+.PHONY : analyse.s
 
 # target to generate assembly for a file
-arrange.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitve.dir\build.make CMakeFiles/Competitve.dir/arrange.cpp.s
-.PHONY : arrange.cpp.s
+analyse.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitve.dir\build.make CMakeFiles/Competitve.dir/analyse.cpp.s
+.PHONY : analyse.cpp.s
 
 # Help Target
 help:
@@ -177,9 +177,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Competitve
-	@echo ... arrange.obj
-	@echo ... arrange.i
-	@echo ... arrange.s
+	@echo ... analyse.obj
+	@echo ... analyse.i
+	@echo ... analyse.s
 .PHONY : help
 
 
