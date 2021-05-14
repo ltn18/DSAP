@@ -129,44 +129,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Competitve
+# Target rules for targets named Competitive
 
 # Build rule for target.
-Competitve: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Competitve
-.PHONY : Competitve
+Competitive: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Competitive
+.PHONY : Competitive
 
 # fast build rule for target.
-Competitve/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitve.dir\build.make CMakeFiles/Competitve.dir/build
-.PHONY : Competitve/fast
+Competitive/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitive.dir\build.make CMakeFiles/Competitive.dir/build
+.PHONY : Competitive/fast
 
-analyse.obj: analyse.cpp.obj
+queens.obj: queens.cpp.obj
 
-.PHONY : analyse.obj
+.PHONY : queens.obj
 
 # target to build an object file
-analyse.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitve.dir\build.make CMakeFiles/Competitve.dir/analyse.cpp.obj
-.PHONY : analyse.cpp.obj
+queens.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitive.dir\build.make CMakeFiles/Competitive.dir/queens.cpp.obj
+.PHONY : queens.cpp.obj
 
-analyse.i: analyse.cpp.i
+queens.i: queens.cpp.i
 
-.PHONY : analyse.i
+.PHONY : queens.i
 
 # target to preprocess a source file
-analyse.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitve.dir\build.make CMakeFiles/Competitve.dir/analyse.cpp.i
-.PHONY : analyse.cpp.i
+queens.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitive.dir\build.make CMakeFiles/Competitive.dir/queens.cpp.i
+.PHONY : queens.cpp.i
 
-analyse.s: analyse.cpp.s
+queens.s: queens.cpp.s
 
-.PHONY : analyse.s
+.PHONY : queens.s
 
 # target to generate assembly for a file
-analyse.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitve.dir\build.make CMakeFiles/Competitve.dir/analyse.cpp.s
-.PHONY : analyse.cpp.s
+queens.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitive.dir\build.make CMakeFiles/Competitive.dir/queens.cpp.s
+.PHONY : queens.cpp.s
 
 # Help Target
 help:
@@ -176,10 +176,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Competitve
-	@echo ... analyse.obj
-	@echo ... analyse.i
-	@echo ... analyse.s
+	@echo ... Competitive
+	@echo ... queens.obj
+	@echo ... queens.i
+	@echo ... queens.s
 .PHONY : help
 
 

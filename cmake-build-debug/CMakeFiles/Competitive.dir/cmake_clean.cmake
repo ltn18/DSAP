@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Competitive.dir/bstr_backtrack.cpp.obj"
+  "CMakeFiles/Competitive.dir/queens.cpp.obj"
   "Competitive.exe"
   "Competitive.exe.manifest"
   "Competitive.pdb"
