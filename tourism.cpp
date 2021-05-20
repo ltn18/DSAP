@@ -52,8 +52,6 @@ void enter(int m, int n) {
         c[start][end] = cost;
         c[end][start] = cost;
     }
-
-
 }
 
 void init(int m) {
