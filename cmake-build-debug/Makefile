@@ -128,46 +128,6 @@ depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named Competitive
-
-# Build rule for target.
-Competitive: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Competitive
-.PHONY : Competitive
-
-# fast build rule for target.
-Competitive/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitive.dir\build.make CMakeFiles/Competitive.dir/build
-.PHONY : Competitive/fast
-
-queens.obj: queens.cpp.obj
-
-.PHONY : queens.obj
-
-# target to build an object file
-queens.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitive.dir\build.make CMakeFiles/Competitive.dir/queens.cpp.obj
-.PHONY : queens.cpp.obj
-
-queens.i: queens.cpp.i
-
-.PHONY : queens.i
-
-# target to preprocess a source file
-queens.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitive.dir\build.make CMakeFiles/Competitive.dir/queens.cpp.i
-.PHONY : queens.cpp.i
-
-queens.s: queens.cpp.s
-
-.PHONY : queens.s
-
-# target to generate assembly for a file
-queens.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitive.dir\build.make CMakeFiles/Competitive.dir/queens.cpp.s
-.PHONY : queens.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -176,10 +136,6 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Competitive
-	@echo ... queens.obj
-	@echo ... queens.i
-	@echo ... queens.s
 .PHONY : help
 
 

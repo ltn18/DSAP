@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/admin/Desktop/CS/Competitive/queens.cpp" "C:/Users/admin/Desktop/CS/Competitive/cmake-build-debug/CMakeFiles/Competitive.dir/queens.cpp.obj"
+  "C:/Users/admin/Desktop/CS/Competitive/tourism.cpp" "C:/Users/admin/Desktop/CS/Competitive/cmake-build-debug/CMakeFiles/Competitive.dir/tourism.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
