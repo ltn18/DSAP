@@ -75,27 +75,27 @@ include CMakeFiles/Competitive.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Competitive.dir/flags.make
 
-CMakeFiles/Competitive.dir/tourism.cpp.obj: CMakeFiles/Competitive.dir/flags.make
-CMakeFiles/Competitive.dir/tourism.cpp.obj: ../tourism.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\admin\Desktop\CS\Competitive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Competitive.dir/tourism.cpp.obj"
-	C:\PROGRA~2\MinGW\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Competitive.dir\tourism.cpp.obj -c C:\Users\admin\Desktop\CS\Competitive\tourism.cpp
+CMakeFiles/Competitive.dir/hanoi_tower.cpp.obj: CMakeFiles/Competitive.dir/flags.make
+CMakeFiles/Competitive.dir/hanoi_tower.cpp.obj: ../hanoi_tower.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\admin\Desktop\CS\Competitive\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Competitive.dir/hanoi_tower.cpp.obj"
+	C:\PROGRA~2\MinGW\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Competitive.dir\hanoi_tower.cpp.obj -c C:\Users\admin\Desktop\CS\Competitive\hanoi_tower.cpp
 
-CMakeFiles/Competitive.dir/tourism.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Competitive.dir/tourism.cpp.i"
-	C:\PROGRA~2\MinGW\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\admin\Desktop\CS\Competitive\tourism.cpp > CMakeFiles\Competitive.dir\tourism.cpp.i
+CMakeFiles/Competitive.dir/hanoi_tower.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Competitive.dir/hanoi_tower.cpp.i"
+	C:\PROGRA~2\MinGW\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\admin\Desktop\CS\Competitive\hanoi_tower.cpp > CMakeFiles\Competitive.dir\hanoi_tower.cpp.i
 
-CMakeFiles/Competitive.dir/tourism.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Competitive.dir/tourism.cpp.s"
-	C:\PROGRA~2\MinGW\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\admin\Desktop\CS\Competitive\tourism.cpp -o CMakeFiles\Competitive.dir\tourism.cpp.s
+CMakeFiles/Competitive.dir/hanoi_tower.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Competitive.dir/hanoi_tower.cpp.s"
+	C:\PROGRA~2\MinGW\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\admin\Desktop\CS\Competitive\hanoi_tower.cpp -o CMakeFiles\Competitive.dir\hanoi_tower.cpp.s
 
 # Object files for target Competitive
 Competitive_OBJECTS = \
-"CMakeFiles/Competitive.dir/tourism.cpp.obj"
+"CMakeFiles/Competitive.dir/hanoi_tower.cpp.obj"
 
 # External object files for target Competitive
 Competitive_EXTERNAL_OBJECTS =
 
-Competitive.exe: CMakeFiles/Competitive.dir/tourism.cpp.obj
+Competitive.exe: CMakeFiles/Competitive.dir/hanoi_tower.cpp.obj
 Competitive.exe: CMakeFiles/Competitive.dir/build.make
 Competitive.exe: CMakeFiles/Competitive.dir/linklibs.rsp
 Competitive.exe: CMakeFiles/Competitive.dir/objects1.rsp

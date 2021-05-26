@@ -129,44 +129,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Competitve
+# Target rules for targets named Competitive
 
 # Build rule for target.
-Competitve: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Competitve
-.PHONY : Competitve
+Competitive: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Competitive
+.PHONY : Competitive
 
 # fast build rule for target.
-Competitve/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitve.dir\build.make CMakeFiles/Competitve.dir/build
-.PHONY : Competitve/fast
+Competitive/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitive.dir\build.make CMakeFiles/Competitive.dir/build
+.PHONY : Competitive/fast
 
-abc.obj: abc.cpp.obj
+hanoi_tower.obj: hanoi_tower.cpp.obj
 
-.PHONY : abc.obj
+.PHONY : hanoi_tower.obj
 
 # target to build an object file
-abc.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitve.dir\build.make CMakeFiles/Competitve.dir/abc.cpp.obj
-.PHONY : abc.cpp.obj
+hanoi_tower.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitive.dir\build.make CMakeFiles/Competitive.dir/hanoi_tower.cpp.obj
+.PHONY : hanoi_tower.cpp.obj
 
-abc.i: abc.cpp.i
+hanoi_tower.i: hanoi_tower.cpp.i
 
-.PHONY : abc.i
+.PHONY : hanoi_tower.i
 
 # target to preprocess a source file
-abc.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitve.dir\build.make CMakeFiles/Competitve.dir/abc.cpp.i
-.PHONY : abc.cpp.i
+hanoi_tower.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitive.dir\build.make CMakeFiles/Competitive.dir/hanoi_tower.cpp.i
+.PHONY : hanoi_tower.cpp.i
 
-abc.s: abc.cpp.s
+hanoi_tower.s: hanoi_tower.cpp.s
 
-.PHONY : abc.s
+.PHONY : hanoi_tower.s
 
 # target to generate assembly for a file
-abc.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitve.dir\build.make CMakeFiles/Competitve.dir/abc.cpp.s
-.PHONY : abc.cpp.s
+hanoi_tower.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Competitive.dir\build.make CMakeFiles/Competitive.dir/hanoi_tower.cpp.s
+.PHONY : hanoi_tower.cpp.s
 
 # Help Target
 help:
@@ -176,10 +176,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Competitve
-	@echo ... abc.obj
-	@echo ... abc.i
-	@echo ... abc.s
+	@echo ... Competitive
+	@echo ... hanoi_tower.obj
+	@echo ... hanoi_tower.i
+	@echo ... hanoi_tower.s
 .PHONY : help
 
 

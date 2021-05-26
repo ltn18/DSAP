@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Competitive.dir/tourism.cpp.obj"
+  "CMakeFiles/Competitive.dir/hanoi_tower.cpp.obj"
   "Competitive.exe"
   "Competitive.exe.manifest"
   "Competitive.pdb"
