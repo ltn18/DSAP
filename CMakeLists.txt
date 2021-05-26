@@ -18,3 +18,4 @@ set(CMAKE_CXX_STANDARD 14)
 
 # chapter 4: branch and bound
 #add_executable(Competitive tourism.cpp)
+add_executable(Competitve abc.cpp)
